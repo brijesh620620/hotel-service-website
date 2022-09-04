@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal _Hotel</title>
+</head>
+<body>
+
+    <!----------------------Home page Css ---------------------------->
+
+    <style>
+        body::before {
+            display: flex;
+            content: "";
+            background: url("image/gu.jpg") no-repeat center center/cover;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 2.4;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu a {
+            background-color: darkgray;
+               font-family: 'Libre Bodoni', serif;
+               color: black;
+               font-size: 20px;
+               font-style: bold;
+               padding: 5px;
+               margin: 10px;
+               text-decoration: none;
+               border: 2px solid red;
+               
+           }
+
+           .menu a:hover {
+            font-family: 'Libre Bodoni', serif;
+            color: black;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .left {
+       
+            float: left;
+            margin-top: -55px;
+            font-size: 25px;
+            font-family: 'Baloo Bhai 2', cursive;
+            
+
+        }
+
+        .left img {
+            height: 150px;
+            width: 150px;
+        }
+ 
+    </style>
+
+    <!----------------------Home page HTML---------------------------->
+
+    <div class="container">
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="r_service.html">Service</a>
+            <a href="r_check_in.html">Check-in</a>
+            <a href="r_photo.html">Photos</a>
+            <a href="r_contact.html">Contact us!</a>
+        </div>
+        <div class="left">
+            <img src="image/r_logo.png " alt="">
+           
+        </div>
+    </div>
+</body>
+</html>
